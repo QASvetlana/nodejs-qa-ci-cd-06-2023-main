@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-qa-docker",
+  "version": "1.0.0",
+  "description": "Есть проект и нам надо сделать следующие вещи:",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/run.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage --collectCoverageFrom='./src/**'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlapshin/nodejs-qa-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlapshin/nodejs-qa-docker/issues"
+  },
+  "homepage": "https://github.com/nlapshin/nodejs-qa-docker#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "envalid": "^7.3.1",
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^3.7.0",
+    "jest-html-reporters": "^3.0.12",
+    "supertest": "^6.3.3"
+  }
+}
